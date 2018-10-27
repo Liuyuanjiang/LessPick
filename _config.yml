@@ -2,7 +2,7 @@
 name: Pick Word
 email: liuyuanjiang109@outlook.com
 author: Freud Kang
-url: http://Liuyuanjiang.github.io
+url: http://Liuyuanjiangtest.github.io
 resume_site: http://www.hifreud.com/Resume.io/
 github: https://github.com/Liuyuanjiang/LessPick
 baseurl: ""
@@ -14,7 +14,8 @@ banner: 学而不思则罔，思而不学则殆。
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
 paginate: 10
-
+repository: Liuyuanjiang/LessPick
+github_url: https://github.com/Liuyuanjiang
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 github_username: Liuyuanjiang
@@ -22,5 +23,5 @@ github_username: Liuyuanjiang
 # Build settings
 markdown: kramdown
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+#baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
