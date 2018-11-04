@@ -945,7 +945,7 @@ pre code {
     width: 83.33333333%;
   }
   .col-md-9 {
-    width: 75%;
+    width: 80%;
   }
   .col-md-8 {
     width: 66.66666667%;
@@ -963,7 +963,7 @@ pre code {
     width: 33.33333333%;
   }
   .col-md-3 {
-    width: 25%;
+    width: 20%;
   }
   .col-md-2 {
     width: 16.66666667%;
@@ -981,7 +981,7 @@ pre code {
     right: 83.33333333%;
   }
   .col-md-pull-9 {
-    right: 75%;
+    right: 80%;
   }
   .col-md-pull-8 {
     right: 66.66666667%;
@@ -999,7 +999,7 @@ pre code {
     right: 33.33333333%;
   }
   .col-md-pull-3 {
-    right: 25%;
+    right: 20%;
   }
   .col-md-pull-2 {
     right: 16.66666667%;
@@ -6316,7 +6316,7 @@ hr {
 .docs-header,
 .docs-home {
   color: #b9c8e0;
-  background-color: #1d365d;
+  background-color: #5e0ca1;
 }
 /* Page headers */
 .docs-header {
@@ -6519,7 +6519,7 @@ hr {
   border-color: #111f36;
 }
 .docs-nav .container .navbar-brand {
-  margin: 12px 0 0;
+  /* margin: 12px 0 0; */
   width: 100px;
   padding: 0;
 }
