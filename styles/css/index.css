@@ -3622,7 +3622,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand {
-    margin-left: -15px;
+    margin-left: 0px;
   }
 }
 .navbar-toggle {
@@ -6512,6 +6512,9 @@ hr {
 .docs-nav {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
   background-color: #1d365d;
+  background: url(../images/water2.jpg);
+  opacity:1;
+  background-size:contain;
   border-color: rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07);
 }
@@ -6519,9 +6522,10 @@ hr {
   border-color: #111f36;
 }
 .docs-nav .container .navbar-brand {
-  /* margin: 12px 0 0; */
-  width: 100px;
+  margin: 2px 0 0 0;
+  width: 60px;
   padding: 0;
+  opacity:0.9;
 }
 .docs-nav .container .navbar-brand img {
   display: block;
@@ -6530,7 +6534,7 @@ hr {
 }
 .docs-nav .navbar-nav > li > a,
 .docs-nav .navbar-nav > li > span {
-  color: #b9c8e0;
+  color: #000000;
 }
 .docs-nav .navbar-nav > li > a:hover,
 .docs-nav .navbar-nav > li > span:hover {
