@@ -20,7 +20,7 @@ tag: 教程
 ------------------------------------
 
 
-Ruby官网下在地址：[https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/ "Ruby Downloads for Windows")（建议浏览器开始下载后复制下载链接，使用讯雷等下载工具。　并且尽量下载稳定版本作之下载了 Ruby+Devkit 2.4.5-1 (x64) ）
+Ruby官网下在地址：[https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/ "Ruby Downloads for Windows")（建议浏览器开始下载后复制下载链接，使用讯雷等下载工具。　并且尽量下载稳定版本.作者下载了 Ruby+Devkit 2.4.5-1 (x64) ）
 ![](https://i.imgur.com/X1chF3P.png)
 
 
@@ -28,13 +28,13 @@ Ruby官网下在地址：[https://rubyinstaller.org/downloads/](https://rubyinst
 
 目录　＼Ruby24-x64\msys64\etc\pacman.d　下
 
-	mirrorlist.msys文件中将镜像地址添加至前面
+	mirrorlist.msys文件中将下面镜像地址添加至首行
 	Server = http://mirrors.ustc.edu.cn/msys2/msys/$arch/ 
 
-	mirrorlist.mingw64文件中将镜像地址添加至前面
+	mirrorlist.mingw64文件中将下面镜像地址添加至首行
 	Server = http://mirrors.ustc.edu.cn/msys2/mingw/x86_64/
 
-	mirrorlist.mingw32文件中将镜像地址添加至前面
+	mirrorlist.mingw32文件中将下面镜像地址添加至首行
 	Server = http://mirrors.ustc.edu.cn/msys2/mingw/i686/
 	
 Ruby环境搭建好以后cmd窗口输入 ruby -v 检测是否安装成功
@@ -60,7 +60,7 @@ cdm窗口运行 gem install jekyll，
 	1 gem installed
 	D:\>
 
-由于之前安装过，所以以来的一些软件基本没有下载，10秒就完成。
+由于之前安装过，所以依赖的一些软件基本没有下载，10秒就完成。
 
 安装完成后本地测试 jekyll -v
 
