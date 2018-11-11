@@ -6315,13 +6315,17 @@ hr {
 }
 .docs-header,
 .docs-home {
-  color: #b9c8e0;
-  background-color: #5e0ca1;
+  color: #fff;
+  /* #b9c8e0 */
+  background-color: #1e1e1e;
 }
 /* Page headers */
 .docs-header {
   padding: 30px 15px 50px;
   /* side padding builds on .container 15px, so 30px */
+  /* background: url(../images/shuimo1.jpg);
+  opacity:1;
+  background-size:cover; */
   font-size: 16px;
   text-align: center;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
@@ -6511,10 +6515,10 @@ hr {
 }
 .docs-nav {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
-  background-color: #1d365d;
-  background: url(../images/water1.jpg);
+  background-color: #212121;
+  /* background: url(../images/shuimo1.jpg);
   opacity:1;
-  background-size:cover;
+  background-size:cover; */
   border-color: rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07);
 }
@@ -6529,12 +6533,16 @@ hr {
 }
 .docs-nav .container .navbar-brand img {
   display: block;
-  max-width: 100%;
+  max-width: 110%;
   height: auto;
+  padding-left: 10px;
 }
 .docs-nav .navbar-nav > li > a,
 .docs-nav .navbar-nav > li > span {
-  color: #000000;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight:lighter;
+
 }
 .docs-nav .navbar-nav > li > a:hover,
 .docs-nav .navbar-nav > li > span:hover {
